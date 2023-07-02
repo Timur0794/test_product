@@ -1,0 +1,28 @@
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list li {
+    margin-bottom: 10px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image {
+    margin-right: 10px;
+}
+
+.product-image img {
+    width: 100px;
+}
+
+.product-actions .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
