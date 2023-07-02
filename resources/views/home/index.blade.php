@@ -8,7 +8,7 @@
                     @if ($product->photo)
                         <img src="{{ 'storage/' . $product->photo }}" alt="{{ $product->name }}" style="width: 100px;">
                     @endif
-                    {{ $product->name }} - {{ $product->formattedPrice }}
+                    {{ $product->name }} - {{ $product->formattedPrice }} тенге
                 </li>
             @endforeach
         </ul>
@@ -17,10 +17,10 @@
         <ul class="product-list">
             @foreach ($allProducts as $product)
                 <li>
-                    {{ $product->name }} - {{ $product->formattedPrice }}
                     @if ($product->photo)
                         <img src="{{ 'storage/' . $product->photo }}" alt="{{ $product->name }}" style="width: 100px;">
                     @endif
+                    {{ $product->name }} - {{ $product->formattedPrice }} тенге
                 </li>
             @endforeach
         </ul>

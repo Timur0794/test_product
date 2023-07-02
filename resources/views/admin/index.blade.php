@@ -15,7 +15,7 @@
                         </div>
 
                         <div class="product-info">
-                            {{ $product->name }} - {{ $product->formattedPrice }}
+                            {{ $product->name }} - {{ $product->formattedPrice }} тенге
                         </div>
 
                         <div class="product-actions">
